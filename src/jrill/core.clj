@@ -40,6 +40,8 @@ ExpressionContext and args as restargs."
     (JXPathContext/compile xpath)))
 
 (defn lift-ctx-xpath
+  "Treat F's first two args as JXPath context specifier and XPath
+expression, respectively."
   [f]
   (fn [ctx an-xpath & args]
     (apply f (context ctx) (xpath an-xpath) args)))
