@@ -1,13 +1,20 @@
 # jrill
 
-FIXME: write description
+Clojure wrapper for JXPath from Apache Commons
+See: http://commons.apache.org/jxpath/
 
 ## Usage
 
-FIXME: write
+Get jrill from Clojars: http://clojars.org/jrill
+
+This is the result of a Boston Clojure Meetup hackfest.
+http://www.meetup.com/Boston-Clojure-Group/
+
+It's currently VERY alpha software. Don't use it. Feel free to fix it.
 
 ## License
 
-Copyright (C) 2011 FIXME
+Copyright (C) 2011 Boston Clojure Meetup
+
 
 Distributed under the Eclipse Public License, the same as Clojure.
